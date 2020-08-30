@@ -5,7 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <link rel="stylesheet" href="styles/css/spacing.css" />
+    <link rel="stylesheet" href="styles/css/grid.css" />
+    <link rel="stylesheet" href="styles/css/table.css" />
+    <link rel="stylesheet" href="styles/css/colors.css" />
+    <link rel="stylesheet" href="styles/css/flex.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
           integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
     <title>CV</title>
@@ -14,7 +19,7 @@
 <body>
 
     <header class="mb-3 mt-2">
-        <nav class="shadow-sm border-bottom p-3 font-weight-light">
+        <nav class="shadow-sm border-bottom p-3 font-weight-light bg-light">
             <p>CV</p>
 
             <ul class="nav">
@@ -39,8 +44,42 @@
         <p class="section-headers">Personal info</p>
 
         <div class="row">
-            <div></div>
-            <div></div>
+            <div class="col-4">
+                 <img src="https://avatars2.githubusercontent.com/u/41282278?s=460&v=4" alt="" />
+            </div>
+            <div class="col-8 d-flex flex-column bg-light">
+                <div class="bg-light-gray">
+                    <p class="my-0 p-4"> Andrei Kazheunikau </p>
+                </div>
+
+                <div class="my-auto p-4">
+
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="pl-0 border-top-0">Date of Birth:</td>
+                                <td class="pl-0 border-top-0">01/04/1993</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-0">Location:</td>
+                                <td class="pl-0">Belarus, Minsk</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-0">Mobile:</td>
+                                <td class="pl-0">+375 (29) 232-84-21</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-0">E-mail:</td>
+                                <td class="pl-0">andrew.kozhevnikov93@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-0">Skype:</td>
+                                <td class="pl-0">kozhevnikov@pmtech.by</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
     <section id="summary">
