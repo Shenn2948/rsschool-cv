@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  flex-basis: 1 / (12 / 4) * 100%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-8 {
+  flex-basis: 1 / (12 / 8) * 100%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
