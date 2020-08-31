@@ -47,4 +47,4 @@ I also have experience working with:
  - Async Programming in C# (LinkedIn)
  - C# and .NET Framework (kursy.by)
 ## English
- - according to EPAM english interview: B2+ writing and B2 speaking.
+ - B2+ writing and B2 speaking.
