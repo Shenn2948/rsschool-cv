@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  color: #212529;
+}
+
+.table td {
+  padding: 0.3rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.border-top-0 {
+  border-top: 0 !important;
+}
